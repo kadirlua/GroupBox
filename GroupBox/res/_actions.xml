@@ -1,0 +1,126 @@
+<ActionTemplates>
+   <Action>
+      <Name>GroupBox.SetLabelText</Name>
+      <Description>Sets the text of a groupbox object.</Description>
+      <ReturnValueType></ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>ObjectName</Name>
+            <Description>The name of the object.</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default></Default>
+               <DataType>pluginobject</DataType>
+               <Constraints>IR_GROUPBOX_OBJECT</Constraints>
+            </EasyMode>
+         </Arg>
+		 <Arg>
+            <Name>Text</Name>
+            <Description>The text of the object.</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>"Label Text"</Default>
+               <DataType>string</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+   <Action>
+      <Name>GroupBox.SetBorderColor</Name>
+      <Description>Sets the border color of a groupbox object.</Description>
+      <ReturnValueType></ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>ObjectName</Name>
+            <Description>The name of the object.</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default></Default>
+               <DataType>pluginobject</DataType>
+               <Constraints>IR_GROUPBOX_OBJECT</Constraints>
+            </EasyMode>
+         </Arg>
+		 <Arg>
+            <Name>Color</Name>
+            <Description>The color value.</Description>
+            <Type>number</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>12632256</Default>
+               <DataType>color</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+   <Action>
+      <Name>GroupBox.SetCaptionTextColor</Name>
+      <Description>Sets the caption text color of a groupbox object.</Description>
+      <ReturnValueType></ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>ObjectName</Name>
+            <Description>The name of the object.</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default></Default>
+               <DataType>pluginobject</DataType>
+               <Constraints>IR_GROUPBOX_OBJECT</Constraints>
+            </EasyMode>
+         </Arg>
+		 <Arg>
+            <Name>Color</Name>
+            <Description>The color value.</Description>
+            <Type>number</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>0</Default>
+               <DataType>color</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+   <Action>
+      <Name>GroupBox.SetBackGroundColor</Name>
+      <Description>Sets the background color of a groupbox object.</Description>
+      <ReturnValueType></ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>ObjectName</Name>
+            <Description>The name of the object.</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default></Default>
+               <DataType>pluginobject</DataType>
+               <Constraints>IR_GROUPBOX_OBJECT</Constraints>
+            </EasyMode>
+         </Arg>
+		 <Arg>
+            <Name>Color</Name>
+            <Description>The color value.</Description>
+            <Type>number</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>15790320</Default>
+               <DataType>color</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+</ActionTemplates>
