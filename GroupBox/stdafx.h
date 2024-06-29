@@ -39,5 +39,4 @@
 
 #include "lua.hpp"
 
-#define USE_PLUGIN_LIB
 #include "IRPluginHelperFunctions.h"
