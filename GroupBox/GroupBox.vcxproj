@@ -101,7 +101,7 @@
       <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>IRPluginHelperFunctionsvc90.lib;obfinsider.lib;lua5.1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(ProjectName).apo</OutputFile>
       <ModuleDefinitionFile>.\GroupBox.def</ModuleDefinitionFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
