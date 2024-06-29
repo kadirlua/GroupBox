@@ -11,9 +11,6 @@
 #define new DEBUG_NEW
 #endif
 
-extern "C" wchar_t* __ODC__( const char * );
-extern "C" char* __ODA__( const char * );
-
 char szInformation[] = "GroupBox Object for AutoPlay Media Studio\r\nCreated by Kadir Altındağ\r\n"
 					   "Copyright © 2013";
 char szObjectName[] = "GroupBox";
@@ -145,10 +142,7 @@ bool irPlg_ShowHelpForPlugin(char* lpszPluginPath, HWND hParentWnd)
 
 bool irPlg_ValidateLicense(char* lpszLicenseInfo)
 {
-	if (strcmp(__ODA__("BLLSSSSSafuv$&+1@LWenpqx\"/01:@KYfms\"&4>IWahv},8>IJJO]ccisv &,/5:@DKKWYcn"),lpszLicenseInfo) == 0)
 	return TRUE;
-	else
-	return FALSE;
 }
 
 int irPlg_GetLuaVersion(char* szBuffer, int* pnBufferSize)
